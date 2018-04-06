@@ -21,6 +21,7 @@ defmodule Rumbl.Mixfile do
     [
       mod: {Rumbl, []},
       extra_applications: [:logger]
+      applications: [:phoenix, :phoenix_html, :cowboy, :logger, :gettext, :phoenix_ecto, :postgrex, :comeonin]
     ]
   end
 
